@@ -75,7 +75,7 @@ export default function TrackingSearch() {
 
   return (
     <div className="w-full max-w-2xl mx-auto">
-      <div className="text-center mb-8">
+      <div className="text-center mb-5 sm:mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-brand-dark">
           Track Your Shipment
         </h1>
@@ -113,7 +113,7 @@ export default function TrackingSearch() {
         </div>
 
         {/* CAPTCHA */}
-        <div className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg px-4 py-3">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3 bg-gray-50 border border-gray-200 rounded-lg px-3 sm:px-4 py-3">
           <span className="text-sm text-gray-500 whitespace-nowrap">Verify:</span>
           <span className="font-semibold text-brand-dark text-base whitespace-nowrap">
             {captchaQuestion} =
@@ -123,7 +123,7 @@ export default function TrackingSearch() {
             value={captchaAnswer}
             onChange={(e) => setCaptchaAnswer(e.target.value)}
             placeholder="?"
-            className="w-20 px-3 py-1.5 border border-gray-300 rounded text-center text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-transparent"
+            className="w-16 sm:w-20 px-2 sm:px-3 py-1.5 border border-gray-300 rounded text-center text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-transparent"
             inputMode="numeric"
           />
           <button
