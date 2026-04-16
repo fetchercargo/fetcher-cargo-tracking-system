@@ -12,7 +12,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Track Your Shipment | Fetcher Cargo",
-  description: "Track your cargo shipment with Fetcher Cargo. Enter your Air Waybill number to see real-time tracking updates.",
+  description: "Track your cargo shipment with Fetcher Cargo. Enter your AirWay bill number to see real-time tracking updates.",
 };
 
 export default function RootLayout({
